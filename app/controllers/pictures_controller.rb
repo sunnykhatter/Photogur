@@ -3,13 +3,13 @@ class PicturesController < ApplicationController
 
 	def index
 		
-		@pictures = Picture.all
+		@picture = Picture.all
 
 	end
 
 
 	def show
-  @pictures = Picture.find(params[id])
+ 	 @picture = Picture.find(params[:id])
 
 
 	end
