@@ -3,7 +3,7 @@ Photogur::Application.routes.draw do
 
 
   resources :pictures
-
+ root :to => "pictures#index"
 
 
 
@@ -16,7 +16,7 @@ Photogur::Application.routes.draw do
 
    # get 'pictures/:id/edit' => "pictures#edit", as: "edit_picture"
 
-   # root :to => "pictures#index"
+   
 end
 
   # The priority is based upon order of creation:
